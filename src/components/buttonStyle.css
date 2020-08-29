@@ -1,0 +1,20 @@
+.buttonStyle {
+	padding:10px;
+	background: linear-gradient(to left, rgb(7, 27, 82,0.1), rgb(0, 128, 128,0.1) 100% );
+	border:0px;
+	border-radius: 300px;
+	color: #0ccac4;;
+	margin:0px;
+}
+
+.buttonStyle:focus{
+	background-color:#a2dfff;
+	border:0px;
+	outline: none;
+	color: rgb(7, 27, 82);
+}
+
+.buttonStyle:hover {
+	cursor:pointer;
+}
+

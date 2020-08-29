@@ -1,0 +1,24 @@
+#scroll {
+	overflow-y: scroll;
+	height: 500px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(to left, rgb(7, 27, 82,0.7), rgb(0, 128, 128,1) 100% );
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to left, rgb(255, 27, 82,0.7), rgb(0, 128, 128,1) 100% );
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to left, rgb(255, 27, 82,0.7), rgb(0, 128, 128,1) 100% );
+}
